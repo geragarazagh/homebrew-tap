@@ -1,6 +1,6 @@
 cask "grids" do
-  version "1.2"
-  sha256 "f2461eac9955558b83d2aed0655ad130ec51b5067f9110b46e4747cfb9d5223c"
+  version "1.3"
+  sha256 "69bc13b06787c1787d57cb8f4c8fe083af9d4baba33ce5b3dbb422c38825f431"
 
   url "https://github.com/geragarazagh/grids/releases/download/v#{version}/Grids.dmg"
   name "Grids"
