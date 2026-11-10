@@ -1,6 +1,6 @@
 cask "stt" do
-  version "0.4"
-  sha256 "c2370df4cd199aa4f7ae540b644e49ecc80e0b238b1dffaa5c5e53a7d310beff"
+  version "0.5"
+  sha256 "f3a0fad745c5eb06211a89bff8e2e5a9e8442660013687963e0f7b02ea07e27b"
 
   url "https://github.com/geragarazagh/stt/releases/download/v#{version}/STT.dmg"
   name "STT"
@@ -17,6 +17,7 @@ cask "stt" do
   depends_on macos: :ventura
 
   app "STT.app"
+  binary "#{appdir}/STT.app/Contents/MacOS/STT", target: "stt-cli"
 
   uninstall quit: "com.geragaraza.stt"
 
