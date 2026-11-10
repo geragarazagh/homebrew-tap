@@ -14,7 +14,7 @@ brew install geragarazagh/tap/grids
 - [#HEX](https://github.com/geragarazagh/hex): color picker, a keyboard shortcut copies any pixel of the screen as a HEX code.
 - [OCR](https://github.com/geragarazagh/ocr): screen text and QR codes to the clipboard.
 - [STT](https://github.com/geragarazagh/stt): offline dictation with local speech recognition models.
-- [TTS](https://github.com/geragarazagh/tts): offline text to speech with Supertonic voices, macOS 13.3 or later.
+- [TTS](https://github.com/geragarazagh/tts): text to speech with Siri and other macOS voices, offline, macOS 13 or later.
 - [HoldQ](https://github.com/geragarazagh/holdq): ⌘Q quits an app only when held for a second.
 - [Grids](https://github.com/geragarazagh/grids): grid overlay for checking layout and proportion.
 

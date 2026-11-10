@@ -1,10 +1,10 @@
 cask "tts" do
-  version "0.2"
-  sha256 "4035a70a1649c33fc18f61ae14cb8cb728c8ac3d7b566f7433b2addbc35a2d3b"
+  version "0.3"
+  sha256 "0dbcce74d202eddbf631119b78b61a4660371f2b0ed2a0cd209721272b757ca7"
 
   url "https://github.com/geragarazagh/tts/releases/download/v#{version}/TTS.dmg"
   name "TTS"
-  desc "Offline text to speech with Supertonic voices"
+  desc "Text to speech with Siri and other system voices"
   homepage "https://geragaraza.com/apps/tts/"
 
   livecheck do
