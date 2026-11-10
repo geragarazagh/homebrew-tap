@@ -1,6 +1,6 @@
 cask "holdq" do
-  version "0.1"
-  sha256 "1419c4d10dea18997729c1b26b47bb2dd2bd6e034029863caa2b75ea970cd5d8"
+  version "0.2"
+  sha256 "cbdb8d202798300a8071874f928956d21b031836e62bf0b1a09c90d6a77e0b4a"
 
   url "https://github.com/geragarazagh/holdq/releases/download/v#{version}/HoldQ.dmg"
   name "HoldQ"
