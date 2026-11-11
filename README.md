@@ -8,6 +8,7 @@ brew install geragarazagh/tap/ocr
 brew install geragarazagh/tap/stt
 brew install geragarazagh/tap/tts
 brew install geragarazagh/tap/holdq
+brew install geragarazagh/tap/sourcekey
 brew install geragarazagh/tap/grids
 ```
 
@@ -16,6 +17,7 @@ brew install geragarazagh/tap/grids
 - [STT](https://github.com/geragarazagh/stt): offline dictation with local speech recognition models.
 - [TTS](https://github.com/geragarazagh/tts): text to speech with Siri and other macOS voices.
 - [HoldQ](https://github.com/geragarazagh/holdq): ⌘Q quits an app only when held for a second.
+- [SourceKey](https://github.com/geragarazagh/sourcekey): text typed in the wrong keyboard layout, retyped in the right one.
 - [Grids](https://github.com/geragarazagh/grids): grid overlay for checking layout and proportion.
 
 Each app updates itself through Check for Updates, so `brew upgrade` leaves it alone. `brew uninstall --zap <name>` removes the app and its settings.
