@@ -1,6 +1,6 @@
 cask "stt" do
-  version "0.7"
-  sha256 "015e0eb37aed76531e52e123d770dea9a14a0ca4beeacb05da36dfda87219cb5"
+  version "0.7.1"
+  sha256 "9010585b0f8298c063e6ad9617552ac1121887a9744afc0d5a1043f222ebd812"
 
   url "https://github.com/geragarazagh/stt/releases/download/v#{version}/STT.dmg"
   name "STT"
