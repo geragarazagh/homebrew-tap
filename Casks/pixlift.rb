@@ -1,6 +1,6 @@
 cask "pixlift" do
   version "0.1"
-  sha256 "1e41cd2807a0e59c964be1a8fec6b408aa6e4fcb28d265ad3d9beae8ea5ae116"
+  sha256 "dad1502664bbba5d352807ad2d71e6d2a53b45b785b1b96288c1e6a092288168"
 
   url "https://github.com/geragarazagh/pixlift/releases/download/v#{version}/Pixlift.dmg"
   name "Pixlift"
