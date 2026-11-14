@@ -1,10 +1,10 @@
 cask "pixlift" do
-  version "0.1"
-  sha256 "dad1502664bbba5d352807ad2d71e6d2a53b45b785b1b96288c1e6a092288168"
+  version "0.2"
+  sha256 "0a3ec592f8a9aa5641f820c19ffea0fa8a29867c649e9275aefd801a5f400d56"
 
   url "https://github.com/geragarazagh/pixlift/releases/download/v#{version}/Pixlift.dmg"
   name "Pixlift"
-  desc "Screenshots and screen recording to the Desktop and the clipboard at once"
+  desc "Screenshots and screen recording, saved, copied to the clipboard or both"
   homepage "https://geragaraza.com/apps/pixlift/"
 
   livecheck do
