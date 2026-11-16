@@ -1,6 +1,6 @@
 cask "ocr" do
-  version "0.3"
-  sha256 "7770f54aa88dd093a17c5efe7189a9b4f04683df8bb757153dd031da71ea0d9a"
+  version "0.4"
+  sha256 "230a77970fcda459ad6c02b0e38a006d2849c538d467d957e7488431ab0c5717"
 
   url "https://github.com/geragarazagh/ocr/releases/download/v#{version}/OCR.dmg"
   name "OCR"
