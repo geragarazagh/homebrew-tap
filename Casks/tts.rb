@@ -1,6 +1,6 @@
 cask "tts" do
-  version "0.5"
-  sha256 "18c9d986591935fb91123832c1e14cf735b412759df0494a1feb2f8b1f0591ba"
+  version "0.6"
+  sha256 "d813619b067c43e5040a121d2faba9fa7b67a9ef8dfc8a46491a3abdcc766bfc"
 
   url "https://github.com/geragarazagh/tts/releases/download/v#{version}/TTS.dmg"
   name "TTS"
