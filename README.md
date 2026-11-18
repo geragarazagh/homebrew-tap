@@ -8,6 +8,7 @@ brew install geragarazagh/tap/stt
 brew install geragarazagh/tap/copia
 brew install geragarazagh/tap/pixlift
 brew install geragarazagh/tap/retyper
+brew install geragarazagh/tap/fully
 brew install geragarazagh/tap/tts
 brew install geragarazagh/tap/holdq
 brew install geragarazagh/tap/hex
@@ -19,6 +20,7 @@ brew install geragarazagh/tap/ocr
 - [Copia](https://github.com/geragarazagh/copia): clipboard history; several items pasted at once, or one by one from a paste queue.
 - [Pixlift](https://github.com/geragarazagh/pixlift): screenshots and screen recording, each saved to a folder, copied to the clipboard, or both; text and color from the screen.
 - [Retyper](https://github.com/geragarazagh/retyper): text typed in the wrong keyboard layout, retyped in the right one.
+- [Fully](https://github.com/geragarazagh/fully): a title-bar double-click fills the window to the screen, and it keeps that size when dragged.
 - [TTS](https://github.com/geragarazagh/tts): text to speech with Siri and other macOS voices.
 - [HoldQ](https://github.com/geragarazagh/holdq): ⌘Q quits an app only when held for a second.
 - [#HEX](https://github.com/geragarazagh/hex): color picker, a keyboard shortcut copies any pixel of the screen as a HEX code.
