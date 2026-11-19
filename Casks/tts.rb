@@ -4,7 +4,7 @@ cask "tts" do
 
   url "https://github.com/geragarazagh/tts/releases/download/v#{version}/TTS.dmg"
   name "TTS"
-  desc "Text to speech with Siri and other system voices"
+  desc "Text to speech"
   homepage "https://geragaraza.com/apps/tts/"
 
   livecheck do

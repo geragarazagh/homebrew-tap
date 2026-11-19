@@ -4,7 +4,7 @@ cask "holdq" do
 
   url "https://github.com/geragarazagh/holdq/releases/download/v#{version}/HoldQ.dmg"
   name "HoldQ"
-  desc "Makes Command-Q quit an app only when held for a second"
+  desc "Quit protection"
   homepage "https://geragaraza.com/apps/holdq/"
 
   livecheck do

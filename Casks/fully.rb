@@ -4,7 +4,7 @@ cask "fully" do
 
   url "https://github.com/geragarazagh/fully/releases/download/v#{version}/Fully.dmg"
   name "Fully"
-  desc "Makes a title-bar double-click fill the window to the screen"
+  desc "Window maximizer"
   homepage "https://geragaraza.com/apps/fully/"
 
   livecheck do

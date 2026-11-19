@@ -4,7 +4,7 @@ cask "ocr" do
 
   url "https://github.com/geragarazagh/ocr/releases/download/v#{version}/OCR.dmg"
   name "OCR"
-  desc "Screen text and QR code recognition to the clipboard"
+  desc "Screen text recognition"
   homepage "https://geragaraza.com/apps/ocr/"
 
   livecheck do

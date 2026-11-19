@@ -4,7 +4,7 @@ cask "grids" do
 
   url "https://github.com/geragarazagh/grids/releases/download/v#{version}/Grids.dmg"
   name "Grids"
-  desc "Grid overlay for checking layout and proportion on the screen"
+  desc "Grid overlay"
   homepage "https://geragaraza.com/apps/grids/"
 
   livecheck do

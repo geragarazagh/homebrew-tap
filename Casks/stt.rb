@@ -4,7 +4,7 @@ cask "stt" do
 
   url "https://github.com/geragarazagh/stt/releases/download/v#{version}/STT.dmg"
   name "STT"
-  desc "Offline dictation with local speech recognition models"
+  desc "Dictation"
   homepage "https://geragaraza.com/apps/stt/"
 
   livecheck do

@@ -4,7 +4,7 @@ cask "retyper" do
 
   url "https://github.com/geragarazagh/retyper/releases/download/v#{version}/Retyper.dmg"
   name "Retyper"
-  desc "Retypes text typed in the wrong keyboard layout"
+  desc "Keyboard layout fixer"
   homepage "https://geragaraza.com/apps/retyper/"
 
   livecheck do
