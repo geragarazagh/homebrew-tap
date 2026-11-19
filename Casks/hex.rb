@@ -4,7 +4,7 @@ cask "hex" do
 
   url "https://github.com/geragarazagh/hex/releases/download/v#{version}/HEX.dmg"
   name "#HEX"
-  desc "Color picker that copies any pixel of the screen as a HEX code"
+  desc "Color picker"
   homepage "https://geragaraza.com/apps/hex/"
 
   livecheck do

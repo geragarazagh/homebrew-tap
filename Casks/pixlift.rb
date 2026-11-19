@@ -4,7 +4,7 @@ cask "pixlift" do
 
   url "https://github.com/geragarazagh/pixlift/releases/download/v#{version}/Pixlift.dmg"
   name "Pixlift"
-  desc "Screenshots and screen recording, saved, copied to the clipboard or both"
+  desc "Screenshots and screen recording"
   homepage "https://geragaraza.com/apps/pixlift/"
 
   livecheck do

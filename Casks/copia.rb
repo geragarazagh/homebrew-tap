@@ -4,7 +4,7 @@ cask "copia" do
 
   url "https://github.com/geragarazagh/copia/releases/download/v#{version}/Copia.dmg"
   name "Copia"
-  desc "Clipboard history: several items pasted at once, or one by one from a queue"
+  desc "Clipboard manager"
   homepage "https://geragaraza.com/apps/copia/"
 
   livecheck do
