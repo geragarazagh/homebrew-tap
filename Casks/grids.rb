@@ -1,6 +1,6 @@
 cask "grids" do
-  version "1.3"
-  sha256 "69bc13b06787c1787d57cb8f4c8fe083af9d4baba33ce5b3dbb422c38825f431"
+  version "1.4"
+  sha256 "edee7eb0dc95a502bb27b3f649edc9c8323fb808108cf4a69574e428c37c9258"
 
   url "https://github.com/geragarazagh/grids/releases/download/v#{version}/Grids.dmg"
   name "Grids"
@@ -17,6 +17,7 @@ cask "grids" do
   depends_on macos: :ventura
 
   app "Grids.app"
+  binary "#{appdir}/Grids.app/Contents/MacOS/Grids", target: "grids-cli"
 
   uninstall quit: "com.geragaraza.grids"
 
