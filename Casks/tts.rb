@@ -1,6 +1,6 @@
 cask "tts" do
-  version "0.7"
-  sha256 "91ada2a43e0808e6f8c57c2246c769674d1e560113c291c066ef0029e4c3331f"
+  version "0.8"
+  sha256 "a2920ab74ce4797b54763618d60149d6df1cd74ca3e542ed5d6066357917b350"
 
   url "https://github.com/geragarazagh/tts/releases/download/v#{version}/TTS.dmg"
   name "TTS"
@@ -17,6 +17,7 @@ cask "tts" do
   depends_on macos: :ventura
 
   app "TTS.app"
+  binary "#{appdir}/TTS.app/Contents/Resources/tts", target: "tts"
 
   uninstall quit: "com.geragaraza.tts"
 
