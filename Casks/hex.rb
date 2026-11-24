@@ -1,6 +1,6 @@
 cask "hex" do
-  version "0.3"
-  sha256 "c1cd345918e20ddfc6f7b465314313b69956ec1783f8d0b01b0ab463c9de584a"
+  version "0.4"
+  sha256 "4b49750687c71a1f685cb030efe3eba8941a0b6f77455dcf75bb70e7d899d9f9"
 
   url "https://github.com/geragarazagh/hex/releases/download/v#{version}/HEX.dmg"
   name "#HEX"
@@ -17,6 +17,7 @@ cask "hex" do
   depends_on macos: :ventura
 
   app "#HEX.app"
+  binary "#{appdir}/#HEX.app/Contents/MacOS/HEX", target: "hex-cli"
 
   uninstall quit: "com.geragaraza.hex"
 
