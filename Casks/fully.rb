@@ -1,6 +1,6 @@
 cask "fully" do
-  version "0.1"
-  sha256 "1a6673a8c6a90b8af6df762155390e9bd7dc0c8b8d992f0284bcab49bb6b3ddb"
+  version "0.2"
+  sha256 "9a7e8aa18ba4f96af69ccdb9e911f28a20b825bfce004625bc4578dd7606f962"
 
   url "https://github.com/geragarazagh/fully/releases/download/v#{version}/Fully.dmg"
   name "Fully"
@@ -17,6 +17,7 @@ cask "fully" do
   depends_on macos: :ventura
 
   app "Fully.app"
+  binary "#{appdir}/Fully.app/Contents/MacOS/Fully", target: "fully-cli"
 
   uninstall quit: "com.geragaraza.fully"
 
