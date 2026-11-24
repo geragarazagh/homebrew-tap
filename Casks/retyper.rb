@@ -1,6 +1,6 @@
 cask "retyper" do
-  version "0.2"
-  sha256 "1d0984afde47fca13b364248d3c975353bf3d1180944f9261895fc8d4eec284c"
+  version "0.3"
+  sha256 "6450c9a381f1eb9802ec8b6ecaf89b2176bd709c2cff0620dcee03ba2b870786"
 
   url "https://github.com/geragarazagh/retyper/releases/download/v#{version}/Retyper.dmg"
   name "Retyper"
@@ -17,6 +17,7 @@ cask "retyper" do
   depends_on macos: :ventura
 
   app "Retyper.app"
+  binary "#{appdir}/Retyper.app/Contents/MacOS/Retyper", target: "retyper-cli"
 
   uninstall quit: "com.geragaraza.sourcekey"
 
