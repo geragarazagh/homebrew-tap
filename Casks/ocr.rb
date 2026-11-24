@@ -1,6 +1,6 @@
 cask "ocr" do
-  version "0.4"
-  sha256 "230a77970fcda459ad6c02b0e38a006d2849c538d467d957e7488431ab0c5717"
+  version "0.5"
+  sha256 "93abaf554a23f1256fbfcdd12ebb7cf25c7e5104d4f133a4a2f1fe9a6b81b415"
 
   url "https://github.com/geragarazagh/ocr/releases/download/v#{version}/OCR.dmg"
   name "OCR"
@@ -17,6 +17,7 @@ cask "ocr" do
   depends_on macos: :ventura
 
   app "OCR.app"
+  binary "#{appdir}/OCR.app/Contents/MacOS/OCR", target: "ocr-cli"
 
   uninstall quit: "com.geragaraza.ocr"
 
