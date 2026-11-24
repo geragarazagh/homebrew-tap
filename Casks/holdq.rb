@@ -1,6 +1,6 @@
 cask "holdq" do
-  version "0.2"
-  sha256 "cbdb8d202798300a8071874f928956d21b031836e62bf0b1a09c90d6a77e0b4a"
+  version "0.3"
+  sha256 "f9d49df29c4f96dccc545ffdd0c05e65df9f1391d3e17e5a601d21befd4d7eae"
 
   url "https://github.com/geragarazagh/holdq/releases/download/v#{version}/HoldQ.dmg"
   name "HoldQ"
@@ -17,6 +17,7 @@ cask "holdq" do
   depends_on macos: :ventura
 
   app "HoldQ.app"
+  binary "#{appdir}/HoldQ.app/Contents/MacOS/HoldQ", target: "holdq-cli"
 
   uninstall quit: "com.geragaraza.holdq"
 
