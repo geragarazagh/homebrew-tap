@@ -1,6 +1,6 @@
 cask "copia" do
-  version "0.2"
-  sha256 "a6fd533c467d2241f42ba2e96213fdfa6f3c17a4f2de692a20bec4befb9f1b18"
+  version "0.3"
+  sha256 "c02d3d5407d027f9982826177a3e8920cc39a368b15b3b4464e6992bb5ea9e06"
 
   url "https://github.com/geragarazagh/copia/releases/download/v#{version}/Copia.dmg"
   name "Copia"
@@ -17,6 +17,7 @@ cask "copia" do
   depends_on macos: :ventura
 
   app "Copia.app"
+  binary "#{appdir}/Copia.app/Contents/MacOS/Copia", target: "copia-cli"
 
   uninstall quit: "com.geragaraza.copia"
 
