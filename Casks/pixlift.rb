@@ -1,6 +1,6 @@
 cask "pixlift" do
-  version "0.2"
-  sha256 "0a3ec592f8a9aa5641f820c19ffea0fa8a29867c649e9275aefd801a5f400d56"
+  version "0.3"
+  sha256 "e060eb5be1e20a28bbc34bc9d639520f598a5ffe780a6843cc254cf7a7222471"
 
   url "https://github.com/geragarazagh/pixlift/releases/download/v#{version}/Pixlift.dmg"
   name "Pixlift"
@@ -17,6 +17,7 @@ cask "pixlift" do
   depends_on macos: :ventura
 
   app "Pixlift.app"
+  binary "#{appdir}/Pixlift.app/Contents/MacOS/Pixlift", target: "pixlift-cli"
 
   uninstall quit: "com.geragaraza.pixlift"
 
