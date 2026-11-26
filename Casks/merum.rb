@@ -1,6 +1,6 @@
 cask "merum" do
-  version "0.1"
-  sha256 "648f592d2e51109391e93cedbf63b0d5fff6c127a08920a71b9ecffcd616760c"
+  version "0.2"
+  sha256 "0e89ef7097a6ef055585e2c3a432b3da781fd8ad37df8a2e7671aac7af15a0d3"
 
   url "https://github.com/geragarazagh/merum/releases/download/v#{version}/Merum.dmg"
   name "Merum"
