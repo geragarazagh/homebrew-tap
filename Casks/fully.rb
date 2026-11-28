@@ -1,6 +1,6 @@
 cask "fully" do
-  version "0.2"
-  sha256 "9a7e8aa18ba4f96af69ccdb9e911f28a20b825bfce004625bc4578dd7606f962"
+  version "0.3"
+  sha256 "bd07b8d98dc08a6ea551b4f5f30c764c067c58978da85b9dcc81fe7adefec561"
 
   url "https://github.com/geragarazagh/fully/releases/download/v#{version}/Fully.dmg"
   name "Fully"
