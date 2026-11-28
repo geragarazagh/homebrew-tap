@@ -1,6 +1,6 @@
 cask "retyper" do
-  version "0.3"
-  sha256 "6450c9a381f1eb9802ec8b6ecaf89b2176bd709c2cff0620dcee03ba2b870786"
+  version "0.4"
+  sha256 "0c142675172f13f4743efe42dd412827b1f658001351ee93592ecb99bdb6959f"
 
   url "https://github.com/geragarazagh/retyper/releases/download/v#{version}/Retyper.dmg"
   name "Retyper"
