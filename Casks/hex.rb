@@ -1,6 +1,6 @@
 cask "hex" do
-  version "0.4"
-  sha256 "4b49750687c71a1f685cb030efe3eba8941a0b6f77455dcf75bb70e7d899d9f9"
+  version "0.5"
+  sha256 "08d8d381fc0f86f5dda8722c4174efd4361e1b459f21b981979f15d285cadc23"
 
   url "https://github.com/geragarazagh/hex/releases/download/v#{version}/HEX.dmg"
   name "#HEX"
