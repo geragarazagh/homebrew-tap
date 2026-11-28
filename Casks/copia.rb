@@ -1,6 +1,6 @@
 cask "copia" do
-  version "0.3"
-  sha256 "c02d3d5407d027f9982826177a3e8920cc39a368b15b3b4464e6992bb5ea9e06"
+  version "0.4"
+  sha256 "f4907ead1340205b80137e79f7f7b7b5363498ea28d7a5f02e4317ae17b64cfb"
 
   url "https://github.com/geragarazagh/copia/releases/download/v#{version}/Copia.dmg"
   name "Copia"
